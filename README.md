@@ -27,6 +27,10 @@ Open `index.html` in any modern web browser. The typography (Google Fonts) and p
 
 This is a static front-end coursework demonstration. Registration is disabled; form entries are not submitted, transmitted, or stored.
 
+## Screenshot
+
+![Open Spectrum desktop homepage](screenshots/open-spectrum-desktop.png)
+
 ## Hero image
 
 The hero uses an illustrative concert photograph served by Unsplash. It is not an official ALTA or ADYPU campus photo; replace it with an approved campus image if one is available.

@@ -37,4 +37,6 @@ The hero uses an illustrative concert photograph served by Unsplash. It is not a
 
 ## Deployment
 
-The project can be deployed directly to static website hosts such as GitHub Pages, Netlify, or Vercel with no build step required.
+Live website: [Open Spectrum — ALTA at ADYPU](https://college-fest-campus-club-website.vercel.app/)
+
+The site is deployed on Vercel as a static website with no build step required.

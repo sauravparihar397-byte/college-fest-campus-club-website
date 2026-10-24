@@ -2,14 +2,14 @@
 
 A responsive website for **Open Spectrum**, a student-created college festival concept developed by students of **ALTA** at the **ADYPU (Ajeenkya DY Patil)** campus. This project fulfills Project 4: College Fest & Campus Club Website.
 
-> **Note on Project Status:** This website is an academic coursework project and a student concept. It is not an announcement of an official event endorsed by ALTA or ADYPU. The proposed date is 14 November 2026 and the proposed venue is the Main Amphitheatre at the ADYPU campus in Pune; both are illustrative and require confirmation. Organizing committees and partner organizations are also proposed placeholders.
+> **Note on Project Status:** This website is an academic coursework project and a student concept, not an official event announcement. The proposed date is 14 November 2026; the venue is ADYPU Central Oval Ground. The date and activity timings are concept details and should be confirmed before any real event.
 
 ## Features
 
 - **Hero section**: Festival concept introduction, working title, proposed operating hours, and registration link
-- **Six proposed activities**: Acoustic & electronic live sets, print & form workshop, student talks, interactive tech showcase, community kitchen, and closing evening set with descriptions, tentative timings, and proposed ADYPU campus venues
+- **Six proposed activities**: Acoustic & electronic live sets, print & form workshop, student talks, interactive tech showcase, community kitchen, and closing evening set with descriptions and proposed timings at ADYPU Central Oval Ground
 - **Programme schedule**: Chronological running order with event descriptions and proposed locations designed to remain legible across desktop and mobile screens
-- **Organizers & collaborators**: Proposed student-led committee structure and campus collaborator placeholders clearly designated as tentative
+- **Organizers & partners**: Organized by the ALTA Cultural Club and its members; external partners or sponsors are not confirmed
 - **Labelled registration demo form**: Semantic HTML form with name, email, and activity-interest fields; submission is disabled because no registration service is connected
 - **CSS keyframe animation & accessibility**: CSS animations with reduced-motion media query support, skip link, and semantic document outline
 

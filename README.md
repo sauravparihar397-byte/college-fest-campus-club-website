@@ -10,7 +10,7 @@ A responsive website for **Open Spectrum**, a student-created college festival c
 - **Six proposed activities**: Acoustic & electronic live sets, print & form workshop, student talks, interactive tech showcase, community kitchen, and closing evening set with descriptions, tentative timings, and proposed ADYPU campus venues
 - **Programme schedule**: Chronological running order with event descriptions and proposed locations designed to remain legible across desktop and mobile screens
 - **Organizers & collaborators**: Proposed student-led committee structure and campus collaborator placeholders clearly designated as tentative
-- **Labelled registration demo form**: Semantic HTML form with name, email, and activity-interest fields, browser validation, and clear notices that no data is collected or transmitted
+- **Labelled registration demo form**: Semantic HTML form with name, email, and activity-interest fields; submission is disabled because no registration service is connected
 - **CSS keyframe animation & accessibility**: CSS animations with reduced-motion media query support, skip link, and semantic document outline
 
 ## Built with
@@ -25,7 +25,7 @@ Open `index.html` in any modern web browser. The typography (Google Fonts) and p
 
 ## Registration demo
 
-This is a front-end coursework demonstration. The registration form uses built-in browser validation (`required`, `type="email"`) but intentionally does not submit, record, or store any data.
+This is a static front-end coursework demonstration. Registration is disabled; form entries are not submitted, transmitted, or stored.
 
 ## Deployment
 

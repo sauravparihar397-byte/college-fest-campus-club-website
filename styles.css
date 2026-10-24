@@ -119,6 +119,7 @@ a { color: inherit; }
 .submit-button { min-height: 49px; padding: 0 15px; display: flex; align-items: center; justify-content: space-between; border: 1px solid var(--accent); border-radius: 2px; background: var(--accent); color: #fff; font: 700 14px var(--display); cursor: pointer; }
 .submit-button:hover { background: #9f432f; }
 .submit-button span { font-size: 19px; }
+.submit-button:disabled { border-color: #a9b2ae; background: #dce1de; color: #475552; cursor: not-allowed; }
 .form-footnote { margin: 13px 0 0; color: var(--muted); font-size: 10px; line-height: 1.5; }
 .site-footer { min-height: 89px; padding: 20px 6.1%; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
 .footer-wordmark { font-size: 21px; }

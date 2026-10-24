@@ -21,7 +21,6 @@ a { color: inherit; }
 .skip-link:focus { transform: translateY(0); }
 .site-header { height: 76px; padding: 0 6.1%; display: flex; justify-content: space-between; align-items: center; background: var(--paper); }
 .wordmark { font: 700 26px/1 var(--display); text-decoration: none; letter-spacing: 0; }
-.wordmark span { display: inline-block; margin-left: 4px; padding: 4px 5px; border: 1px solid var(--ink); border-radius: 50%; font: 600 10px/1 var(--body); vertical-align: 5px; }
 .main-nav { display: flex; align-items: center; gap: clamp(20px, 3.5vw, 52px); }
 .main-nav a { font-size: 13px; font-weight: 600; text-decoration: none; }
 .main-nav a:not(.nav-ticket):hover, .back-top:hover { text-decoration: underline; text-underline-offset: 4px; }

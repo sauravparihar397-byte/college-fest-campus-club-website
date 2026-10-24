@@ -44,11 +44,7 @@ a { color: inherit; }
 .hero-intro { margin: 0; font-size: clamp(15px, 1.7vw, 19px); line-height: 1.55; }
 .round-link { width: 46px; height: 46px; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.74); border-radius: 50%; color: white; font-size: 21px; text-decoration: none; transition: color .2s, background .2s; }
 .round-link:hover { background: var(--accent); color: #fff; }
-.hero-stamp { position: absolute; top: 17%; right: 9%; width: 104px; height: 104px; display: grid; place-content: center; border: 1px solid rgba(255,255,255,.8); border-radius: 50%; color: white; font-size: 10px; font-weight: 700; line-height: 1.5; text-align: center; transform: rotate(11deg); }
 .hero-caption { position: absolute; right: 6.1%; bottom: 27px; left: 6.1%; display: flex; justify-content: space-between; color: rgba(255,255,255,.84); font-size: 9px; }
-.ticker { overflow: hidden; padding: 16px 0; background: var(--ink); color: var(--paper); }
-.ticker-track { width: max-content; display: flex; align-items: center; gap: 34px; animation: ticker-scroll 28s linear infinite; font: 600 16px var(--display); }
-.ticker-track b { color: #e9b28e; font-size: 18px; }
 .section-wrap { width: min(1120px, 86%); margin-inline: auto; }
 .intro { position: relative; min-height: 400px; padding-block: 108px 102px; display: grid; grid-template-columns: .72fr 1.6fr; gap: 6%; overflow: hidden; }
 .section-kicker { margin: 7px 0 0; color: var(--muted); }
@@ -58,7 +54,6 @@ a { color: inherit; }
 .event-facts { margin-top: 34px; padding-top: 19px; display: flex; gap: clamp(22px, 5vw, 68px); border-top: 1px solid var(--line); }
 .event-facts span { display: grid; gap: 5px; color: var(--muted); font-size: 11px; }
 .event-facts strong { color: var(--ink); font: 700 14px var(--display); }
-.intro-doodle { position: absolute; right: -35px; bottom: -112px; color: #e7e9e4; font-size: 280px; line-height: 1; pointer-events: none; }
 .lineup { padding: 94px 0 112px; background: #e9ece8; }
 .section-heading { margin-bottom: 43px; display: flex; align-items: flex-end; justify-content: space-between; gap: 36px; }
 .section-heading h2, .people h2 { margin-top: 19px; font-size: clamp(46px, 7vw, 82px); line-height: .98; }
@@ -133,8 +128,6 @@ a { color: inherit; }
 
 @keyframes rise-in { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes image-arrive { from { opacity: .65; transform: scale(1.035); } to { opacity: 1; transform: scale(1); } }
-@keyframes ticker-scroll { to { transform: translateX(-50%); } }
-
 @media (min-width: 1440px) {
   .hero-content { width: min(1260px, 86%); }
 }
@@ -150,12 +143,10 @@ a { color: inherit; }
   .hero-shade { background: linear-gradient(90deg, rgba(13,24,20,.72), rgba(13,24,20,.2)), linear-gradient(0deg, rgba(13,24,20,.6), transparent 35%); }
   .hero-content { width: 88%; padding-block: 80px 110px; }
   .hero h1 { font-size: clamp(62px, 12vw, 90px); }
-  .hero-stamp { top: 8%; right: 7%; width: 78px; height: 78px; font-size: 8px; }
   .hero-caption { right: 6%; left: 6%; gap: 16px; font-size: 7px; }
   .hero-caption span:last-child { text-align: right; }
   .section-wrap { width: 88%; }
   .intro { padding-block: 78px; grid-template-columns: 1fr; gap: 28px; }
-  .intro-doodle { right: -45px; bottom: -77px; font-size: 190px; }
   .lineup { padding-block: 75px 82px; }
   .event-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .event-card { min-height: 255px; padding-inline: 19px; }
@@ -184,11 +175,9 @@ a { color: inherit; }
   .hero h1 { font-size: clamp(57px, 15vw, 75px); }
   .hero-eyebrow { gap: 8px; font-size: 8px; }
   .eyebrow-year { margin-left: 3px; padding-left: 9px; }
-  .hero-stamp { top: auto; right: 8%; bottom: 112px; width: 67px; height: 67px; font-size: 7px; }
   .hero-bottom { margin-top: 28px; }
   .hero-intro { font-size: 14px; }
   .round-link { width: 39px; height: 39px; }
-  .ticker-track { gap: 22px; font-size: 14px; }
   .intro { padding-block: 65px; }
   .intro h2 { font-size: 42px; }
   .intro-copy > p { font-size: 14px; }

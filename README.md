@@ -2,7 +2,7 @@
 
 A responsive website for **Open Spectrum**, a student-created college festival concept developed by students of **ALTA** at the **ADYPU (Ajeenkya DY Patil)** campus. This project fulfills Project 4: College Fest & Campus Club Website.
 
-> **Note on Project Status:** This website is an academic coursework project and a student concept. It is not an announcement of an official event endorsed by ALTA or ADYPU. All dates, specific campus venues, organizing committees, and partner organizations are proposed placeholders and remain subject to confirmation.
+> **Note on Project Status:** This website is an academic coursework project and a student concept. It is not an announcement of an official event endorsed by ALTA or ADYPU. The proposed date is 14 November 2026 and the proposed venue is the Main Amphitheatre at the ADYPU campus in Pune; both are illustrative and require confirmation. Organizing committees and partner organizations are also proposed placeholders.
 
 ## Features
 
